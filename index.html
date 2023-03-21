@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>v4</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="animate.css">
+<script src="js/wow.min.js"></script>
+<script src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+ <link rel="stylesheet" href="bootstrap.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+          <script src="/css/wow.min.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+ <script src="https://use.fontawesome.com/97030edd6b.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<link rel="stylesheet" href="common.js">
+<script>
+new WOW().init();
+</script>
+    <!--<script src="//code-ya.jivosite.com/widget/A4Vwizle0Y" async></script> -->
+
+</head>
+<body>
+<script>
+ $(document).ready(function(){
+    $('a[href^="#"], *[data-href^="#"]').on('click', function(e){
+        e.preventDefault();
+        var t = 1000;
+        var d = $(this).attr('data-href') ? $(this).attr('data-href') : $(this).attr('href');
+        $('html,body').stop().animate({ scrollTop: $(d).offset().top - 50 }, t);
+    });
+});
+    </script>
+  <header class="header">
+   <div class="container-fluid">
+    <div class="row">
+ <div class="col order-xl-1 order-1">
+<h2>Праздники</h2>
+<h3>8-987293-34-54</h3>
+<div class="links">
+<a href=""><i class="fa fa-vk fa-3x" aria-hidden="true"></i></a>
+<a href=""><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+<a href=""><i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i>
+</a>
+<a href=""><i class="fa fa-telegram fa-3x" aria-hidden="true"></i>
+</a>
+</div>
+ </div>
+    <div class="col-auto order-xl-2 order-3">
+   <div class="header-photo">
+    <img src="img/header-empty-without-all.png" alt="" class="chelny" >
+    </div>
+    </div>
+<div class="col  order-xl-3 order-2">
+<h2>Почти бесплатно</h2>
+<h3>от 1200Р "для своих" <br> и до 5000Р для самых "пузатых"!</h3>
+</div>
+ </div>
+ </div>
+     </header>
+
+ <nav class="navbar navbar-expand-lg sticky-top ">
+ <a class="navbar-brand" href="#hello-blog">Обратно</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span style="color:#ffa800; font-weight: bold;">ещё</span>
+ <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse " id="navbarSupportedContent">     <ul class="navbar-nav mr-4">
+ <li class="nav-item">
+     <a class="nav-link" data-value="about" href="#animators">Аниматоры</a>        </li>
+<li class="nav-item">
+    <a class="nav-link " data-value="portfolio"href="#services">Услуги</a>
+ </li>
+ <li class="nav-item">
+    <a class="nav-link " data-value="blog" href="#partners">Партнеры</a>         </li>
+<li class="nav-item">
+   <a class="nav-link " data-value="team" href="#photogallery">Фотогалерея</a>       </li>
+<li class="nav-item">
+ <a class="nav-link " data-value="contact" href="#about">О нас</a></li>
+ <li class="nav-item">
+ <a class="nav-link " data-value="contact" href="#commento">Отзывы и вопросы</a></li>
+  <li class="nav-item">
+ <a class="nav-link " data-value="contact" href="edit.php">Админка</a></li>
+</ul>
+</div></nav>
+
+<div class="hello-blog" id="hello-blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 ">
+            <!-- Секия с акцией -->
+            <div class="timer">
+                <h2>Успей заказать себе праздник!</h2>
+                     <h2>Закажи праздник до  1 июня  и выбери любого аниматора</h2>
+                <div class="timer-photo"><img src="img/animators/unnamed%20(2).png" alt="" class="dogs"></div>
+                <div class="countdown">
+                    <div class="col-6 col-lg-3"><div id="day">NA</div><div class="description">дней</div></div>
+                  <div class="col-6 col-lg-3"><div id="hour">NA</div><div class="description">часов</div></div>
+                   <div class="col-6 col-lg-3"> <div id="minute">NA</div><div class="description">минут</div></div>
+                    <div class="col-6 col-lg-3"><div id="second">NA</div><div class="description">секунд</div></div>
+                </div>
+            </div>
+              <script type="text/javascript">
+              var countDate = new Date('June 1, 2020 00:00:00').getTime();
+
+                function newCelebrate (){
+                    var now = new Date().getTime();
+                    gap = countDate - now;
+
+                    var second = 1000;
+                    var minute = second * 60;
+                    var hour = minute * 60;
+                    var day = hour * 24;
+
+                    var d = Math.floor(gap / (day));
+                    var h = Math.floor((gap % (day)) / (hour));
+                    var m = Math.floor((gap % (hour)) / (minute));
+                    var s = Math.floor((gap % (minute)) / second);
+
+                    document.getElementById('day').innerText = d;
+                    document.getElementById('hour').innerText = h;
+                    document.getElementById('minute').innerText = m;
+                    document.getElementById('second').innerText = s;
+                }
+
+                setInterval(function(){
+                    newCelebrate();
+                },1000)
+                </script>
+        </div>
+         <div class="col-lg-6 col-md-6 ">
+         <div class="form-contact">
+         <!-- Секци с формой-->
+         <form id="form" method="POST">
+         <!-- Hidden Required Fields -->
+        <input type="hidden" name="project_name" value="Yorokobe-shounen">
+        <input type="hidden" name="admin_email" value="yorokobesup@gmail.com">
+        <input type="hidden" name="form_subject" value="Заказ праздника">
+        <!-- END Hidden Required Fields -->
+        <h2>С нетерпением ждем ваш заказ!</h2>
+        <img src="img/animators/%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%BE%D1%80%D1%8B-png-.png" alt="" class="clown">
+         <h2>Имя</h2>
+         <label for="name"></label>
+       <input type="text" class="name" id="name" name="name" placeholder="Ваше имя"  method="POST" required /><br />
+<h2>Фон</h2>
+       <label for="phone"></label>
+        <input type="text" class="phone" id="phone" name="phone" placeholder="Ваш телефон: 8 987 182 28 45"  method="POST" required /><br />
+        <button class="button" type="submit">Отправить</button>
+    </form>
+<script src="https://unpkg.com/imask"></script>
+           <script>
+             var element = document.getElementById('phone');
+var maskOptions = {
+  mask: '+{7}(000)000-00-00'
+};
+var mask = IMask(phone, maskOptions);</script>
+            <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/script.js"></script>
+             </div>
+        </div>
+    </div>
+
+</div>
+    </div>
+<div class="animators" id="animators">
+<div class="container">
+   <h2 class="text-center">Наши аниматоры🤘</h2>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-11 offset-1 offset-md-0">
+            <img src="img/animators/8bfbc261bc35194caed349afb31147e8.png" alt="">
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 ml-auto">
+<h1>atashi mo date kudasai!</h1>
+       <h3>Onegai!!!!!!!!!!!!!!!!</h3>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-lg-4 col-md-6 col-11 offset-1 offset-md-0">
+<img src="img/animators/35_img_minion.png" alt="">
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 ml-auto">
+<h1>atashi mo date kudasai!</h1>
+       <h3>Onegai!!!!!!!!!!!!!!!!</h3>
+        </div>
+
+    </div>
+    <div class="row">
+          <div class="col-lg-4 col-md-6 col-11 offset-1 offset-md-0">
+<img src="img/animators/trolls.png" alt="">
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 ml-auto">
+<h1>atashi mo date kudasai!</h1>
+       <h3>Onegai!!!!!!!!!!!!!!!!</h3>
+    </div>
+    </div>
+    <div class="row">
+   <div class="col-lg-4 col-md-6 col-11 offset-1 offset-md-0">
+    <img src="img/animators/image.png" alt="">
+</div>
+    <div class="col-lg-6 col-md-6 col-12 ml-auto">
+<h1>atashi mo date kudasai!</h1>
+       <h3>Onegai!!!!!!!!!!!!!!!!</h3>
+    </div>
+
+        </div>
+    </div>
+    </div>
+        <h2 class="character">Не нашли любимого персонажа? <button type="button" class="btn btn-primary" style="font-size: 1em;" data-toggle="modal" data-target="#exampleModal">
+  Свяжитесь
+</button> с нами и он прибудет к вам!</h2>
+
+    <div class="services" id="services">
+        <div class="container">
+           <h2>Наши услуги</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                <h3 class="text-center">Все свои</h3>
+                <img src="img/Services/Women+child.png" alt="">
+        <ul class="list-rectangle">
+          <li>Праздничная музыка</li>
+          <li>Аниматор на выбор</li>
+          <li>Веселые конкурсы</li>
+          <li>Праздничное оформление</li>
+          <li>Продолжительность: 1 час</li>
+        </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+<h3 class="text-center">Для уютной компании</h3>
+                <img src="img/Services/HB.jpg" alt="">
+        <ul class="list-rectangle">
+          <li>Костюмировання вечеринка</li>
+          <li>Шоу "Лeчший Музыкант"</li>
+          <li>"Спектакль детей и родителей"</li>
+          <li>Пенная вечеринка</li>
+          <li>Продолжительность: 1 час</li>
+        </ul>
+                </div>
+                  <div class="col-lg-4 col-md-6 col-12">
+<h3 class="text-center">День веселья</h3>
+                <img src="img/Services/halloween.png" alt="">
+        <ul class="list-rectangle">
+          <li>2 Аниматора</li>
+          <li>Интерактив с родителями</li>
+          <li>Сладкие подарки</li>
+          <li>Дискотека</li>
+          <li>Продолжительность: 1,5 часа</li>
+        </ul>
+                </div>
+                  <div class="col-lg-4 col-md-6 col-12 offset-lg-1 offset-md-0">
+<h3 class="text-center">Кулинарное шоу с "Вкусняусом"</h3>
+                <img src="img/Services/kitchen.jpeg" alt="">
+        <ul class="list-rectangle">
+          <li>Детский мастер класс</li>
+          <li>"Вкусные" развивающие игры</li>
+          <li>Памятный дизайнерский фотосет</li>
+          <li>Костюмы в подарокt</li>
+          <li>Продолжительность: 2 часа</li>
+        </ul>
+                </div>
+                  <div class="col-lg-4 col-md-6 col-12 offset-lg-2 offset-md-0">
+<h3 class="text-center">Ваша Самая Праздничная вечеринка</h3>
+                <img src="img/Services/group.png" alt="">
+        <ul class="list-rectangle">
+          <li>Украшение помещения</li>
+          <li>Тематический праздник на выбор</li>
+          <li>Пенная и мыльная вечеринка</li>
+          <li>Проффесиональный фотосет</li>
+          <li>Продолжительность: 2 часа</li>
+        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Заказать звонок</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form id="form" method="POST" action="sendcall.php">
+         <!-- Hidden Required Fields -->
+        <input type="hidden" name="project_name" value="Yorokobe-shounen">
+        <input type="hidden" name="admin_email" value="yorokobesup@gmail.com">
+        <input type="hidden" name="form_subject" value="Заказ праздника">
+        <!-- END Hidden Required Fields -->
+        <h2>С нетерпением ждем ваш заказ!</h2>
+        <img src="img/animators/%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%BE%D1%80%D1%8B-png-.png" alt="" class="clown">
+
+         <label for="name"></label>
+       <input type="text" class="name" id="name" name="name" placeholder="Ваше имя" required /><br />
+
+       <label for="phone"></label>
+        <input type="number" class="phone" id="phone" name="phone" placeholder="Ваш телефон: 8 987 182 28 45" required /><br />
+       <h2>Ваши пожелания</h2>
+        <textarea name="comments" cols="63" rows="3"  class="comments"placeholder="Аниматор, тематика праздник и т.д."></textarea>
+
+        <button class="button" type="submit">Отправить</button>
+    </form>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="partners" id="partners">
+        <h2 class="text-center"> Нам уже доверились</h2>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6"><img src="img/partners/1103-s-removebg.png" alt=""></div>
+                <div class="col-lg-6 col-md-6"><img src="img/partners/15-s-removebg.png" alt=""></div>
+                <div class="col-lg-6 col-md-6"><img src="img/partners/castle-g-removebg.png" alt=""></div>
+                <div class="col-lg-6 col-md-6"><img src="img/partners/childs-g-removebg.png" alt=""></div>
+                <div class="col-lg-6 col-md-6"><img src="img/partners/house-g-removebg.png" alt=""></div>
+                <div class="col-lg-6 col-md-6"><img src="img/partners/trees-g-removebg.png" alt=""></div>
+
+                </div>
+            </div>
+        </div>
+
+<div class="photogallery" id="photogallery">
+        <h2>Фотогалерея</h2>
+        <div class="col">
+        <div class="slider-box">
+         <div class="bxslider">
+    <div><img src="img/balls.jpg" alt=""></div>
+    <div><img src="img/balls.jpg" alt=""></div>
+    <div><img src="img/balls.jpg" alt=""></div>
+    <div><img src="img/balls.jpg" alt=""></div>
+</div>
+       </div>
+       </div>
+       </div>
+          <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+         <script>
+    $(document).ready(function(){
+      $('.bxslider').bxSlider({
+           slideWidth: 1332
+      });
+    });
+  </script>
+
+<div class="about" id="about">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <div class="about-photo">
+                    <img src="img/About/theme.png" alt="">
+                    <span class="text-muted"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="chat">
+<script defer src="https://cdn.commento.io/js/commento.js"></script>
+<div id="commento"></div>
+</div>
+<footer class="footer">
+
+</footer>
+
+                </body>

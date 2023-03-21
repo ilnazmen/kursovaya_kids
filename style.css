@@ -1,0 +1,368 @@
+/*
+
+    border:1px solid black;
+}
+
+1 цвет = #FFE800 - желтый
+2 цвет = #530FAD - фиол
+
+синий - #221982
+оранж - #FFC300
+*/
+
+
+   @font-face {
+    font-family: Bahnschrift; /* Имя шрифта */
+    src: url(bahnschrift.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body {
+    font-family: Bahnschrift;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-image: url(img/animators/theme-2.png);
+      background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+h2, h3, .links {
+    font-family: Bahnschrift;
+    text-align: center;
+}
+
+.container, .container-fluid {
+    font-family: Bahnschrift;
+}
+
+.header {
+display: flex;
+justify-content: center;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+.header h2 {
+    margin-top: 100px;
+}
+
+.fa {
+     color: rgba(255, 195, 0, 0.42);
+}
+
+
+.fa:hover {
+    color: #530FAD;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+     transition: 0.3s;
+}
+.header a {
+    padding: 10px;
+}
+
+.header-photo {
+    width: auto;
+}
+
+.chelny {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #ffa800;
+    font-size: 20px;
+}
+
+.navbar a {
+   color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:#fff !important; margin: 0;}
+.navbar-toggler span{  padding-left: 20px;}
+
+
+.hello-blog {
+    padding-top: 100px;
+   min-height: 1000px;
+    background-image: url(img/balls.jpg);
+     background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+    display: flex;
+    align-items: center;
+     padding-bottom: 100px;
+}
+
+.timer {
+    background-color: #FFC300;
+    color: white;
+    padding: 20px;
+    -moz-box-shadow:0 0 50px #FFC300;
+    -webkit-box-shadow:0 0 50px #FFC300;
+    box-shadow:0 0 50px #FFC300;
+    justify-content: center;
+     margin: 1em;
+}
+
+.countdown {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.countdown #days, #hours {
+    margin: 0 auto;
+}
+
+.countdown h2 {
+    text-align: center;
+}
+
+.timer-photo {
+    width: auto;
+}
+
+.dogs {
+    width: 100%;
+}
+
+ .description {
+    padding-top: 20px;
+     text-transform: uppercase;
+}
+
+#day, #hour, #minute, #second {
+    font-size: 75px;
+    text-decoration: none;
+     border-bottom: 5px white solid;
+    padding: 0 4px 0 4px;
+    text-align: center;
+}
+
+.form-contact {
+    background-color: #221982;
+    padding: 30px;
+    margin: 1em;
+    display: flex;
+     border-radius: 25px;
+     -moz-box-shadow:0 0 50px #221982;
+    -webkit-box-shadow:0 0 50px #221982;
+    box-shadow:0 0 50px #221982;
+}
+
+#form {
+    margin: 0 auto;
+      width: 100%;
+    line-height: 20px;
+}
+
+.form-contact h2 {
+    padding-top: 20px;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2em !important;
+}
+
+.clown {
+    padding: 10px;
+    width: 100%;
+}
+
+.comments {
+    width: 100%;
+}
+
+.modal-body h2:nth-of-type(2) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.name, .phone{
+  width: 100%;
+  padding: 20px;
+border-radius: 10px;
+    font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+.name:hover, .phone:hover {
+ -moz-box-shadow:0 0 50px #FFE800;
+    -webkit-box-shadow:0 0 50px #FFE800;
+    box-shadow:0 0 50px #FFE800;
+}
+.button {
+ margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(255, 195, 0);
+    border-radius: 10%;
+}
+
+.animators {
+    background-image: url(img/animators/theme-2.png);
+      background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+margin: 100px 0;
+}
+
+.animators h1 {
+   padding: 20px 0px 0px 0px;
+}
+
+.animators .row {
+    margin-top: 100px;
+}
+
+.animators img {
+    width: 100%;
+    height: 400px;
+}
+
+
+.animators .row:nth-of-type(2) {
+    background-image: url(img/orange.png);
+}
+
+.animators .row:nth-of-type(1){
+    background-image: url(img/blue.png);
+}
+
+.animators .row:nth-of-type(3) {
+    background-image: url(img/green.png);
+}
+
+.animators .row:nth-of-type(4) {
+    background-image: url(img/yellow-test.png);
+}
+
+.character {
+    background-color: rgba(34, 25, 130, 0.26);
+    padding: 30px;
+    margin:0;
+    background-image: url(img/animators/theme-2.png);
+      background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+.btn {
+    font-size: 2em;
+}
+
+.services {
+    background-color: rgba(255, 195, 0, 0.25);
+    padding-bottom: 50px;
+}
+
+.services h2 {
+    padding-top: 50px;
+}
+
+.services h3{
+   margin-top: 100px;
+}
+
+.services  img {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    height: 230px;
+}
+
+.list-rectangle {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.list-rectangle>li {
+  position: relative;
+  display: block;
+  margin-bottom: .25rem;
+  padding: .325rem .825rem .325rem 1.325rem;
+  color: #fff;
+  background: #FFC300;
+  font-weight: bold;
+}
+.list-rectangle>li:last-child {
+  margin-bottom: 0;
+}
+.list-rectangle>li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0.5rem;
+  background: #FFE800;
+}
+
+.partners {
+    background-color: rgba(0, 255, 255, 0.34);
+    background-image: url(img/animators/theme-2.png);
+      background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+
+.partners h2{
+    padding: 50px;
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+.partners img {
+    width: 100%;
+}
+
+.photogallery {
+    margin: 100px 0;
+}
+
+.photogallery  h2{
+    padding: 50px;
+}
+
+.slider-box  {
+    max-width: 1332px;
+    margin: 0 auto;
+}
+
+.about {
+    margin: 100px 0;
+}
+
+.about img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 3em !important; 
+}
+
+.footer {
+
+}
